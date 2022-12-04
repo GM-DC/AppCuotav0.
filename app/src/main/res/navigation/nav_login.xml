@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_login"
+    app:startDestination="@id/login">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.appcuota.features.login.presentation.LoginFrag"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_to_feeDetailActy"
+            app:destination="@id/feeDetailActy"
+            app:popUpTo="@id/feeDetailActy" />
+        <action
+            android:id="@+id/action_login_to_updatePasswordActy"
+            app:destination="@id/updatePasswordActy"
+            app:popUpTo="@id/updatePasswordActy" />
+        <action
+            android:id="@+id/action_login_to_validateCodeFrag"
+            app:destination="@id/validateCodeFrag"
+            app:popUpTo="@id/validateCodeFrag" />
+    </fragment>
+    <activity
+        android:id="@+id/feeDetailActy"
+        android:name="com.example.appcuota.features.FeeDetailActy"
+        android:label="activity_fee_detail_acty"
+        tools:layout="@layout/activity_fee_detail_acty" />
+    <activity
+        android:id="@+id/updatePasswordActy"
+        android:name="com.example.appcuota.features.UpdatePasswordActy"
+        android:label="activity_update_password"
+        tools:layout="@layout/activity_update_password" />
+    <fragment
+        android:id="@+id/validateCodeFrag"
+        android:name="com.example.appcuota.features.updatepassword.presentation.ValidateCodeFrag"
+        android:label="fragment_validate_code"
+        tools:layout="@layout/fragment_validate_code" >
+        <action
+            android:id="@+id/action_resetCodeFrag_to_updatePasswordFrag"
+            app:destination="@id/updatePasswordFrag2"
+            app:popUpTo="@id/updatePasswordFrag2" />
+    </fragment>
+    <fragment
+        android:id="@+id/updatePasswordFrag2"
+        android:name="com.example.appcuota.features.updatepassword.presentation.UpdatePasswordFrag"
+        android:label="fragment_update_password"
+        tools:layout="@layout/fragment_update_password" />
+</navigation>
