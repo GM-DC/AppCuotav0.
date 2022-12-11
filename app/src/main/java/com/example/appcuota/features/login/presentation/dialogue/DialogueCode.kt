@@ -30,6 +30,4 @@ class DialogueCode(
         onClickDateDialogue.invoke(codigo)
         dismiss()
     }
-
-
 }

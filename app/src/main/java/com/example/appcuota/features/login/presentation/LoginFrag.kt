@@ -10,7 +10,6 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.appcuota.R
 import com.example.appcuota.databinding.FragmentLoginBinding
-import com.example.appcuota.features.login.presentation.dialogue.DialogueCode
 import com.example.appcuota.utils.DataStoreGlobal.Companion.DOCIDENTIDAD
 import com.example.appcuota.utils.DataStoreGlobal.Companion.NAMEUSER
 import dagger.hilt.android.AndroidEntryPoint
