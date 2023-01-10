@@ -28,8 +28,10 @@ class LoginViewModel @Inject constructor(
     private val _message : MutableLiveData<String> = MutableLiveData()
     var message: LiveData<String> = _message
 
+
     private val _loginResult: MutableLiveData<LoginResponse> = MutableLiveData()
     var loginResult: LiveData<LoginResponse> = _loginResult
+
 
     private val _isStateValidateCode = MutableLiveData<Boolean>()
     var isStateValidateCode: LiveData<Boolean> = _isStateValidateCode
