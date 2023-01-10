@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.appcuota'
+    namespace 'com.owlcode.appcuota'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.appcuota"
+        applicationId "com.owlcode.appcuota"
         minSdk 21
         targetSdk 33
         versionCode 1
@@ -54,8 +54,8 @@ dependencies {
     def hilt = "2.44"
     def room = "2.4.3"
     def glide = "4.13.2"
-    def okhttp = "4.10.0"
-    def okhttpInterceptor = "4.9.0"
+    def okhttp = "5.0.0-alpha.2"
+    def okhttpInterceptor = "5.0.0-alpha.2"
     def data_store = "1.0.0"
 
     implementation "androidx.core:core-ktx:$core_ktx"

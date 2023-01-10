@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/login"
-        android:name="com.example.appcuota.features.login.presentation.LoginFrag"
+        android:name="com.owlcode.appcuota.features.login.presentation.LoginFrag"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -25,17 +25,17 @@
     </fragment>
     <activity
         android:id="@+id/feeDetailActy"
-        android:name="com.example.appcuota.features.FeeDetailActy"
+        android:name="com.owlcode.appcuota.features.FeeDetailActy"
         android:label="activity_fee_detail_acty"
         tools:layout="@layout/activity_fee_detail_acty" />
     <activity
         android:id="@+id/updatePasswordActy"
-        android:name="com.example.appcuota.features.UpdatePasswordActy"
+        android:name="com.owlcode.appcuota.features.UpdatePasswordActy"
         android:label="activity_update_password"
         tools:layout="@layout/activity_update_password" />
     <fragment
         android:id="@+id/validateCodeFrag"
-        android:name="com.example.appcuota.features.updatepassword.presentation.ValidateCodeFrag"
+        android:name="com.owlcode.appcuota.features.updatepassword.presentation.ValidateCodeFrag"
         android:label="fragment_validate_code"
         tools:layout="@layout/fragment_validate_code" >
         <action
@@ -45,7 +45,7 @@
     </fragment>
     <fragment
         android:id="@+id/updatePasswordFrag2"
-        android:name="com.example.appcuota.features.updatepassword.presentation.UpdatePasswordFrag"
+        android:name="com.owlcode.appcuota.features.updatepassword.presentation.UpdatePasswordFrag"
         android:label="fragment_update_password"
         tools:layout="@layout/fragment_update_password" />
 </navigation>

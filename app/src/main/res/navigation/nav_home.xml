@@ -6,7 +6,7 @@
     app:startDestination="@id/feeDetailFrag2">
     <fragment
         android:id="@+id/feeDetailFrag2"
-        android:name="com.example.appcuota.features.feedetail.presentation.FeeDetailFrag"
+        android:name="com.owlcode.appcuota.features.feedetail.presentation.FeeDetailFrag"
         android:label="fragment_fee_detail"
         tools:layout="@layout/fragment_fee_detail" />
 </navigation>
